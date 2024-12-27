@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "TestMulticouchesFaceReco\GUI.csproj", "{38DFF562-31B0-4CD3-9CB2-B1AB533A5C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{93347AB2-6401-4A12-8F15-01E7963C462B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{703AED02-3C42-4BB7-B51C-E50F77D19DDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{0B8885B0-77B5-431E-9BFA-511C86D82A0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{526440F2-6D74-4BBB-8AF1-85E11E3AFCD3}"
+	ProjectSection(SolutionItems) = preProject
+		TestMulticouchesFaceReco\bin\Debug\haarcascade_frontalface_default.xml = TestMulticouchesFaceReco\bin\Debug\haarcascade_frontalface_default.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38DFF562-31B0-4CD3-9CB2-B1AB533A5C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DFF562-31B0-4CD3-9CB2-B1AB533A5C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DFF562-31B0-4CD3-9CB2-B1AB533A5C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DFF562-31B0-4CD3-9CB2-B1AB533A5C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93347AB2-6401-4A12-8F15-01E7963C462B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93347AB2-6401-4A12-8F15-01E7963C462B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93347AB2-6401-4A12-8F15-01E7963C462B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93347AB2-6401-4A12-8F15-01E7963C462B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703AED02-3C42-4BB7-B51C-E50F77D19DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703AED02-3C42-4BB7-B51C-E50F77D19DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703AED02-3C42-4BB7-B51C-E50F77D19DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703AED02-3C42-4BB7-B51C-E50F77D19DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8885B0-77B5-431E-9BFA-511C86D82A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8885B0-77B5-431E-9BFA-511C86D82A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8885B0-77B5-431E-9BFA-511C86D82A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8885B0-77B5-431E-9BFA-511C86D82A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
